@@ -10,11 +10,7 @@
         <p class="job">
           UI/UX Design and Web Design Enthusiast
         </p>
-        <button
-          class="button"
-          data-toggle="modal"
-          data-target=".bd-example-modal-lg"
-        >
+        <button class="button" data-toggle="modal" data-target=".bd-example-modal-lg">
           Let's Talk
         </button>
       </div>
@@ -72,11 +68,11 @@
               <div class="card-head">
                 <img
                   alt="Tiklik UX Case"
-                  class="card-img-top"
-                  src="../images/tiklik.png"
+                  class="rounded-circle img-custome"
+                  src="https://www.wetechnology.cz/wp-content/uploads/2017/02/uxui.jpg"
                 />
                 <h2>TIKLIK</h2>
-                <p>UX Case</p>
+                <p> UX Case </p>
               </div>
               <hr />
               <div class="card-body">
@@ -173,8 +169,8 @@ import talk from "./Contact.vue";
 export default {
   name: "Lander",
   components: {
-    talk
-  }
+    talk,
+  },
 };
 </script>
 
@@ -201,7 +197,7 @@ export default {
   font-family: "Poppins";
 }
 #deskrip {
-  padding: 40px 30px;
+  padding: 40px 30px ;
   /* font-size: 22px; */
 }
 #deskripsi {
@@ -233,19 +229,18 @@ export default {
   letter-spacing: 0.03em;
   padding-bottom: 1px;
 }
-.img-fluid {
-  border-radius: 18px;
+.img-fluid{
+    border-radius: 18px;
 }
 .portfolio {
   background-color: white;
   padding-top: 8%;
   padding-bottom: 15%;
   font-family: Poppins;
-  background-image: url("../images/Background.png");
+  background-image: url('../images/Background.png');
   background-size: cover;
   /* padding:15% */
 }
-
 .img-custome {
   width: 140px;
   height: 140px;

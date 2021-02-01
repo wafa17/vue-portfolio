@@ -10,11 +10,7 @@
         <p class="job">
           UI/UX Design and Web Design Enthusiast
         </p>
-        <button
-          class="button"
-          data-toggle="modal"
-          data-target=".bd-example-modal-lg"
-        >
+        <button class="button" data-toggle="modal" data-target=".bd-example-modal-lg">
           Let's Talk
         </button>
       </div>
@@ -48,9 +44,9 @@
                 <h2 id="h2">Humble, Creative and a Good Problem Solver</h2>
                 <p id="deskripsi">
                   Hi! I am Wafa. Computer Science final year student. Passionate
-                  about UI/UX Design and Web Developer. Defined as adaptable,
+                  about UI/UX Design and Web Developer.<br> Defined as adaptable,
                   insightful, introspective, and interest in exploring complex
-                  issues. Good at communication and problem solving and also
+                  issues.<br> Good at communication and problem solving and also
                   good at teamwork. Experienced in UI/UX design, prototyping,
                   and wireframing.
                 </p>
@@ -62,21 +58,20 @@
     </section>
 
     <!-- portfolio section -->
-    <section class="portfolio">
+    <section class="protfolio">
       <h1>Portfolio</h1>
-      <p>These are my project</p>
+      <p>These are suppose to be sample projects</p>
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="card">
               <div class="card-head">
                 <img
-                  alt="Tiklik UX Case"
-                  class="card-img-top"
-                  src="../images/tiklik.png"
+                  alt="Vue logo"
+                  class="rounded-circle img-custome"
+                  src="https://www.wetechnology.cz/wp-content/uploads/2017/02/uxui.jpg"
                 />
-                <h2>TIKLIK</h2>
-                <p>UX Case</p>
+                <h2>web project</h2>
               </div>
               <hr />
               <div class="card-body">
@@ -173,8 +168,8 @@ import talk from "./Contact.vue";
 export default {
   name: "Lander",
   components: {
-    talk
-  }
+    talk,
+  },
 };
 </script>
 
@@ -201,7 +196,7 @@ export default {
   font-family: "Poppins";
 }
 #deskrip {
-  padding: 40px 30px;
+  padding: 40px 20px ;
   /* font-size: 22px; */
 }
 #deskripsi {
@@ -233,19 +228,15 @@ export default {
   letter-spacing: 0.03em;
   padding-bottom: 1px;
 }
-.img-fluid {
-  border-radius: 18px;
+.img-fluid{
+    border-radius: 18px;
 }
-.portfolio {
+.protfolio {
   background-color: white;
   padding-top: 8%;
   padding-bottom: 15%;
-  font-family: Poppins;
-  background-image: url("../images/Background.png");
-  background-size: cover;
   /* padding:15% */
 }
-
 .img-custome {
   width: 140px;
   height: 140px;

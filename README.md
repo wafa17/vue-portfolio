@@ -1,4 +1,6 @@
 # vue-portfolio
+a very simple portfolio page and still on progress. Hoping can be realised soon and I dont need to share my behance and dribbble link to other. If can use one platform to share your work, why not?
+[Click Here to see the pae](https://wafa-porto.netlify.app/#/)
 
 ## Project setup
 ```

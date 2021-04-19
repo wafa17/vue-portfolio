@@ -73,17 +73,16 @@
                 <img
                   alt="Tiklik UX Case"
                   class="card-img-top"
-                  src="../images/Frame 2.png"
+                  src="../images/Frame 1.png"
                 />
                 <h2>TIKLIK</h2>
-                <p>UI/UX Case</p>
+                <p>UX Case</p>
               </div>
               <hr />
               <div class="card-body">
                 <p>
-                  Tiklik is a queuing application for hospitals, clinics, or
-                  health center that will help users register and find out
-                  queues in a real-time.
+                  Tiklik is a queuing application for hospitals, clinics, or health center 
+                  that will help users register and find out queues in a real-time.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
                   More
@@ -98,17 +97,18 @@
               <div class="card-head">
                 <img
                   alt="edmodo-UX/UI Case"
-                  class="card-img-top"
-                  src="../images/Frame 1.png"
+                  class="rounded-circle img-custome"
+                  src="https://i.pinimg.com/originals/4a/70/56/4a70563234301578c158dc142384a1c3.png"
                 />
-                <h2>EDMODO</h2>
-                <p>UI/UX Case</p>
+                <h2>web project</h2>
               </div>
               <hr />
               <div class="card-body">
                 <p>
-                  Re-designing the mobile-based online learning application,
-                  Edmodo. Trying to help users to fix some features problem.
+                  Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                  euismod. Nullam id dolor id nibh ultricies vehicula ut id
+                  elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                  eros. Praesent commodo cursus magna.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
                   More
@@ -122,18 +122,19 @@
             <div class="card">
               <div class="card-head">
                 <img
-                  alt="ITFood"
-                  class="card-img-top"
-                  src="../images/frame 3.png"
+                  alt="Vue logo"
+                  class="rounded-circle img-custome"
+                  src="https://cdn.mos.cms.futurecdn.net/wH5y2PkWhCxqKBje8rBp5e.jpg"
                 />
-                <h2>ITFood</h2>
-                <p>UI Design</p>
+                <h2>web project</h2>
               </div>
               <hr />
               <div class="card-body">
                 <p>
-                  ITFooD will recommend the nearest traditional food around your
-                  location and recommend the favorite traditional food.
+                  Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                  euismod. Nullam id dolor id nibh ultricies vehicula ut id
+                  elit. Morbi leo risus, porta ac consectetur ac, vestibulum at
+                  eros. Praesent commodo cursus magna.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
                   More
@@ -239,7 +240,7 @@ export default {
   padding-bottom: 15%;
   font-family: Poppins;
   background-image: url("../images/Background.png");
-  background-size: 100% 100%;
+  background-size: cover;
   /* padding:15% */
 }
 

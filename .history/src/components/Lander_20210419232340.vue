@@ -81,9 +81,8 @@
               <hr />
               <div class="card-body">
                 <p>
-                  Tiklik is a queuing application for hospitals, clinics, or
-                  health center that will help users register and find out
-                  queues in a real-time.
+                  Tiklik is a queuing application for hospitals, clinics, or health center 
+                  that will help users register and find out queues in a real-time.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
                   More
@@ -107,8 +106,8 @@
               <hr />
               <div class="card-body">
                 <p>
-                  Re-designing the mobile-based online learning application,
-                  Edmodo. Trying to help users to fix some features problem.
+                  Re-designing the mobile-based online learning application, Edmodo. 
+                  Trying to help users to fix some features problem.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
                   More
@@ -127,12 +126,13 @@
                   src="../images/frame 3.png"
                 />
                 <h2>ITFood</h2>
-                <p>UI Design</p>
+                <p> UI Design </p>
               </div>
               <hr />
               <div class="card-body">
                 <p>
-                  ITFooD will recommend the nearest traditional food around your
+                  ITFooD will help tourists to enjoy regional specialties with ease. 
+                  This application will recommend the nearest traditional food around your 
                   location and recommend the favorite traditional food.
                 </p>
                 <button type="button" class="btn btn-outline-secondary">
@@ -239,7 +239,7 @@ export default {
   padding-bottom: 15%;
   font-family: Poppins;
   background-image: url("../images/Background.png");
-  background-size: 100% 100%;
+  background-size: cover;
   /* padding:15% */
 }
 
